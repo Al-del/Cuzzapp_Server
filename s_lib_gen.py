@@ -1,5 +1,6 @@
-
-from libgen_api import LibgenSearch
-s = LibgenSearch()
-results = s.search_title("calculus")
-print(results)
+import time
+import argparse
+import torch
+import torch.backends.cudnn as cudnn
+from torch.autograd import Variable
+from PIL import Image

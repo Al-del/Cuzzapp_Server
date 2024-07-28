@@ -5,10 +5,10 @@ MIT License
 # -*- coding: utf-8 -*-
 import time
 import argparse
-import torch
 import torch.backends.cudnn as cudnn
 from torch.autograd import Variable
 from PIL import Image
+import torch
 
 import cv2
 import numpy as np
