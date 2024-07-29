@@ -12,7 +12,7 @@ Acest proiect utilizează două modele de AI dezvoltate cu PyTorch pentru detect
 
 #### 💻 Instalare și Configurare
 
-1. **Clonarea Repozitoriului** 📂
+1. *Clonarea Repozitoriului* 📂
   ```bash
   git clone <URL-repozitoriu>
   cd <nume-repozitoriu>
@@ -78,8 +78,10 @@ Acest proiect utilizează două modele de AI dezvoltate cu PyTorch pentru detect
 [![My Skills](https://skillicons.dev/icons?i=python,pytorch,flask,opencv)](https://skillpythonicons.dev)  
 
 #### Ghid instalare⬇️
+```bash
 git clone https://github.com/Al-del/Cuzzapp_Server.git
 cd Cuzzapp_Server
 docker build -t ai-text-detection .
 docker run --gpus=all  -p 5000:5000 ai-text-detection
 docker run --net=host -it -e NGROK_AUTHTOKEN=2hYSKegdUZVOvg3cdBVaAClL2bn_4AfN7YcUy6sN6NycqiWRq ngrok/ngrok:latest http --domain=reliably-expert-mammoth.ngrok-free.app 80
+```
